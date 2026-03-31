@@ -8,6 +8,11 @@ import reasonTechImage from "./assets/reason-cutting-edge.png";
 import reasonPartnerImage from "./assets/reason-partnership.png";
 import reasonSecurityImage from "./assets/reason-security.png";
 import reasonSupportImage from "./assets/reason-support.png";
+import processDiscoveryImage from "./assets/process-discovery.png";
+import processDesignImage from "./assets/process-design.png";
+import processTestingImage from "./assets/process-testing.png";
+import processDeployImage from "./assets/process-deploy.png";
+import processSupportImage from "./assets/process-support.png";
 import detailEnterpriseImage from "./assets/detail-enterprise.png";
 import detailIndustryImage from "./assets/detail-industry.png";
 import detailTransformationImage from "./assets/detail-transformation.png";
@@ -109,22 +114,27 @@ const process = [
   {
     step: "1. Discovery & Requirements",
     text: "We start by understanding your business goals, target audience, preferred design style, features, timeline, and content requirements.",
+    image: processDiscoveryImage,
   },
   {
     step: "2. Design & Development",
     text: "Your ideas are transformed into a functional product. We build the structure, design the interface, and develop all required features.",
+    image: processDesignImage,
   },
   {
     step: "3. Testing & Client Review",
     text: "The project is thoroughly tested for performance and usability, then shared with you for feedback on design, flow, and functionality.",
+    image: processTestingImage,
   },
   {
     step: "4. Refinement & Deployment",
     text: "We implement your feedback, finalize the project, connect your domain, and deploy it live for the world to access.",
+    image: processDeployImage,
   },
   {
     step: "5. Ongoing Support & Maintenance",
     text: "After launch, we provide continuous updates, fixes, and improvements to keep your system running smoothly and efficiently.",
+    image: processSupportImage,
   },
 ];
 
@@ -147,8 +157,8 @@ const serviceDetails = [
   },
   {
     id: "industry",
-    label: "Industry-Specific",
-    title: "Industry-Specific Solutions",
+    label: "Industry Specific",
+    title: "Industry Specific Solutions",
     description:
       "Specialized software tailored to the unique requirements of your industry vertical.",
     items: [
@@ -418,11 +428,16 @@ export default function App() {
               <p className="eyebrow">Process</p>
               <h2>A straightforward workflow from first brief to long-term support</h2>
             </div>
-            <div className="process-track">
+            <div className="process-track process-list">
               {process.map((item) => (
-                <article key={item.step} className="process-box">
-                  <span className="process-step">{item.step}</span>
-                  <span className="process-text">{item.text}</span>
+                <article key={item.step} className="process-row">
+                  <div className="process-image-wrap">
+                    <img src={item.image} alt="" className="process-image" />
+                  </div>
+                  <div className="process-copy">
+                    <span className="process-step">{item.step}</span>
+                    <span className="process-text">{item.text}</span>
+                  </div>
                 </article>
               ))}
             </div>

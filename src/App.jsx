@@ -33,9 +33,9 @@ const navItems = [
 
 const faqs = [
   {
-    question: "What kind of websites does Kencore Systems build?",
+    question: "What kind of websites does Heykens Systems build?",
     answer:
-      "Kencore Systems builds corporate websites, small service business sites, custom platforms and startup MVPs with a strong focus on clarity, credibility and modern frontend quality.",
+      "Heykens Systems builds corporate websites, small service business sites, custom platforms and startup MVPs with a strong focus on clarity, credibility and modern frontend quality.",
   },
   {
     question: "What is included in the cost?",
@@ -55,24 +55,24 @@ const faqs = [
   {
     question: "Can you build both marketing sites and web apps?",
     answer:
-      "Yes. Kencore Systems can handle polished landing pages, company websites, dashboards, client portals and lean product MVPs depending on the business need.",
+      "Yes. Heykens Systems can handle polished landing pages, company websites, dashboards, client portals and lean product MVPs depending on the business need.",
   },
 ];
 
 const services = [
   {
     title: "Corporate Websites",
-    text: "Professional company sites designed to build trust, present your value clearly and turn visits into qualified enquiries.",
+    text: "Professional business websites engineered to earn trust, communicate your value instantly and turn attention into real business opportunities.",
     image: serviceCorporateImage,
   },
   {
-    title: "Custom Business Platforms",
-    text: "Internal tools, admin panels and client portals that streamline operations without looking like an afterthought.",
+    title: "Business Systems & Portals",
+    text: "Tailored admin panels and client platforms that simplify workflows and elevate everyday operations.",
     image: servicePlatformsImage,
   },
   {
-    title: "Product MVPs",
-    text: "Lean, modern web apps that help founders validate ideas quickly with strong UX and clean frontend architecture.",
+    title: "Startup MVPs",
+    text: "Quick modern web apps built to test ideas very fast with intuitive UX and solid frontend foundations.",
     image: serviceMvpImage,
   },
 ];
@@ -80,32 +80,32 @@ const services = [
 const reasons = [
   {
     title: "Expert Team",
-    text: "Our team of seasoned developers, architects, and consultants brings decades of combined experience across diverse industries and technologies.",
+    text: "A diverse team with strong technical depth and cross-industry experience, delivering impactful systems that are scalable, reliable and thoughtfully designed to solve real business challenges.",
     image: reasonExpertImage,
   },
   {
     title: "Agile Methodology",
-    text: "We employ agile development practices to ensure flexibility, transparency, and continuous delivery of value throughout the project lifecycle.",
+    text: "Using agile methodologies, we maintain flexibility while delivering incremental value across the entire project lifecycle.",
     image: reasonAgileImage,
   },
   {
     title: "Cutting-Edge Technology",
-    text: "We stay at the forefront of technological innovation, leveraging the latest tools, frameworks, and best practices to deliver superior solutions.",
+    text: "We stay ahead of technological trends by continuously exploring and adopting modern tools, frameworks and engineering practices, ensuring we deliver solutions that are not only reliable and scalable but also aligned with current and future industry standards.",
     image: reasonTechImage,
   },
   {
     title: "Partnership Approach",
-    text: "We view ourselves as your technology partner, not just a vendor. Your success is our success, and we're committed to your long-term growth.",
+    text: "We believe in building partnerships, not transactions. Your success is our priority and we remain dedicated to supporting your growth well beyond project delivery.",
     image: reasonPartnerImage,
   },
   {
     title: "Security-First Mindset",
-    text: "Security is integrated into every aspect of our development process, ensuring your data and systems remain protected against evolving threats.",
+    text: "Security is embedded into every stage of our development process ensuring your data, applications and systems remain protected against evolving threats and modern vulnerabilities.",
     image: reasonSecurityImage,
   },
   {
     title: "Dedicated Support",
-    text: "Our commitment doesn't end at deployment. We provide comprehensive post-launch support and maintenance to ensure your solution continues to perform optimally.",
+    text: "Our partnership continues after launch with dedicated support and maintenance designed to keep your solution performing optimally and adapting to evolving requirements.",
     image: reasonSupportImage,
   },
 ];
@@ -113,27 +113,27 @@ const reasons = [
 const process = [
   {
     step: "1. Discovery & Requirements",
-    text: "We start by understanding your business goals, target audience, preferred design style, features, timeline, and content requirements.",
+    text: "We start by understanding your business goals, target audience, preferred design style, features, timeline and content requirements.",
     image: processDiscoveryImage,
   },
   {
     step: "2. Design & Development",
-    text: "Your ideas are transformed into a functional product. We build the structure, design the interface, and develop all required features.",
+    text: "Your ideas are transformed into a functional product. We build the structure, design the interface and develop all required features.",
     image: processDesignImage,
   },
   {
     step: "3. Testing & Client Review",
-    text: "The project is thoroughly tested for performance and usability, then shared with you for feedback on design, flow, and functionality.",
+    text: "The project is thoroughly tested for performance and usability, then shared with you for feedback on design, flow and functionality.",
     image: processTestingImage,
   },
   {
     step: "4. Refinement & Deployment",
-    text: "We implement your feedback, finalize the project, connect your domain, and deploy it live for the world to access.",
+    text: "We implement your feedback, finalize the project, connect your domain and deploy it live for the world to access.",
     image: processDeployImage,
   },
   {
     step: "5. Ongoing Support & Maintenance",
-    text: "After launch, we provide continuous updates, fixes, and improvements to keep your system running smoothly and efficiently.",
+    text: "After launch, we provide continuous updates, fixes and improvements to keep your system running smoothly and efficiently.",
     image: processSupportImage,
   },
 ];
@@ -144,12 +144,14 @@ const serviceDetails = [
     label: "Enterprise solutions",
     title: "Enterprise Solutions",
     description:
-      "Comprehensive software ecosystems that integrate all aspects of your enterprise operations.",
+      "Fully integrated software ecosystems that connect every part of your enterprise operations.",
     items: [
-      "Enterprise Resource Planning (ERP)",
-      "Customer Relationship Management (CRM)",
-      "Business Intelligence & Analytics",
+      "Workflow Automation Systems & tools",
+      "Order Management System (OMS)",
+      "Billing & Subscription Management",
       "Supply Chain Management",
+      "Inventory Management Systems",
+      "Business Intelligence & Analytics",
       "Human Resource Management Systems",
       "Digital Workplace Solutions",
     ],
@@ -160,13 +162,13 @@ const serviceDetails = [
     label: "Industry Specific",
     title: "Industry Specific Solutions",
     description:
-      "Specialized software tailored to the unique requirements of your industry vertical.",
+      "Industry-specific software designed to meet the unique needs of your business sector.",
     items: [
-      "Healthcare Management Systems",
-      "Network and internet services",
-      "Financial Services Platforms",
+      "Laboratory Information Management Systems (LIMS)",
+      "Hospital Information Systems (HIS)",
+      "Warehouse Management Systems (WMS)",
+      "IT Infrastructure Management Platforms",
       "Retail & E-commerce Solutions",
-      "Manufacturing Execution Systems",
       "Logistics & Transportation Management",
     ],
     image: detailIndustryImage,
@@ -176,13 +178,14 @@ const serviceDetails = [
     label: "Digital Transformation",
     title: "Digital Transformation",
     description:
-      "Strategic technology initiatives that revolutionize your business model and customer experiences.",
+      "Business transforming digital solutions that enhance experiences and optimize operations.",
     items: [
-      "Digital Experience Platforms",
+      "Small & Medium Business (SMB) Digitalization",
       "Process Automation & Workflow Optimization",
-      "Data-Driven Decision Making",
+      "Appointment Booking & Scheduling Systems",
       "Legacy System Modernization",
       "API Integration & Microservices",
+      "Data Driven Decision Making Systems",
     ],
     image: detailTransformationImage,
   },
@@ -191,18 +194,21 @@ const serviceDetails = [
 const contactButtons = [
   {
     label: "Instagram",
-    href: portfolioUrl,
+    href: "https://instagram.com/kypchumbaa?igshid=MzRlODBiNWFlZA==",
     icon: instagramIcon,
+    target: "_blank",
   },
   {
     label: "WhatsApp",
-    href: "https://api.whatsapp.com/send?text=Hello%20Kencore%20Systems%2C%20I%20would%20like%20to%20discuss%20my%20project.",
+    href: "https://api.whatsapp.com/send?text=Hello%20Heykens%20Systems%2C%20I%20would%20like%20to%20discuss%20my%20project.",
     icon: whatsappIcon,
+    target: "_blank",
   },
   {
     label: "Email",
     href: "mailto:chumbakenny@gmail.com",
     icon: emailIcon,
+    target: "_blank",
   },
 ];
 
@@ -349,7 +355,7 @@ export default function App() {
 
       <main className="landing-main">
         <section className="landing-copy">
-          <h1>Welcome to Kencore Systems</h1>
+          <h1>Welcome to Heykens Systems</h1>
           <p>
             We specialize in digitalizing businesses and help them connect with more clients through
             technology.
@@ -357,7 +363,7 @@ export default function App() {
           <p>Stop missing out on more clients contact us today.</p>
         </section>
 
-        <section ref={statsRef} className="stats-strip" aria-label="Kencore Systems highlights">
+        <section ref={statsRef} className="stats-strip" aria-label="Heykens Systems highlights">
           <article className="stat-item">
             <strong>{happyClients}+</strong>
             <span>Happy clients</span>
@@ -452,7 +458,7 @@ export default function App() {
           >
             <div className="section-heading">
               <p className="eyebrow">Services in detail</p>
-              <h2>Explore the kind of digital systems we can plan, build, and scale with you</h2>
+              <h2>Explore the kind of digital systems we can plan, build and scale with you</h2>
             </div>
             <div className="detail-tabs" role="tablist" aria-label="Service detail categories">
               {serviceDetails.map((detail) => (

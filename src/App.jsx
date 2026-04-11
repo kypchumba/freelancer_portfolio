@@ -143,8 +143,6 @@ const serviceDetails = [
     id: "enterprise",
     label: "Enterprise solutions",
     title: "Enterprise Solutions",
-    description:
-      "Fully integrated software ecosystems that connect every part of your enterprise operations.",
     items: [
       "Workflow Automation Systems & tools",
       "Order Management System (OMS)",
@@ -161,8 +159,6 @@ const serviceDetails = [
     id: "industry",
     label: "Industry Specific",
     title: "Industry Specific Solutions",
-    description:
-      "Industry-specific software designed to meet the unique needs of your business sector.",
     items: [
       "Laboratory Information Management Systems (LIMS)",
       "Hospital Information Systems (HIS)",
@@ -177,8 +173,6 @@ const serviceDetails = [
     id: "transformation",
     label: "Digital Transformation",
     title: "Digital Transformation",
-    description:
-      "Business transforming digital solutions that enhance experiences and optimize operations.",
     items: [
       "Small & Medium Business (SMB) Digitalization",
       "Process Automation & Workflow Optimization",
@@ -492,7 +486,7 @@ export default function App() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  discuss your requiremnts
+                  discuss your requirements
                 </a>
               </div>
             </div>
@@ -550,9 +544,6 @@ export default function App() {
               Let&apos;s turn your offer into a website or web app that gives clients confidence from
               the first impression.
             </p>
-            <a className="contact-link" href="mailto:chumbakenny@gmail.com">
-              chumbakenny@gmail.com
-            </a>
             <div className="contact-buttons" aria-label="Social contact links">
               {contactButtons.map((button) => (
                 <a
